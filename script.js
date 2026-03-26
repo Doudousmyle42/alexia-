@@ -173,9 +173,9 @@ function drawText() {
         context.fillStyle = `rgba(255, 179, 193, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["Je t'aime tant mima, plus que tout ce que", "le temps et l'espace de l'univers peuvent contenir"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["Je t'aime tant alexia, plus que tout ce que", "le temps et l'espace de l'univers peuvent contenir"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("Je t'aime tant mima, plus que tout ce que le temps et l'espace de l'univers peuvent contenir", canvas.width/2, canvas.height/2);
+            context.fillText("Je t'aime tant alexia, plus que tout ce que le temps et l'espace de l'univers peuvent contenir", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
